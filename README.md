@@ -24,3 +24,9 @@ This repo is for deep-dive RE (reverse engineering) of the EasySMX X10 game cont
 ## LEGAL: FOR RESEARCH ONLY
 
 All content is for educational, research, and interoperability purposes under fair use. No warranty, no support, no claims. If you’re JieLi or a copyright owner and have an issue, open a polite issue first.
+
+
+## What’s Already Been Tried?
+
+- **Binwalk on firmware files:** Provided no meaningful extraction. The images aren’t standard containers, so there’s nothing obvious to unpack.
+- **IDA Pro and hex editing:** No real breakthrough yet. Disassembly is messy and hasn’t uncovered the flashing routine or how to load a modded firmware file. We’ll keep digging, but expect roadblocks.
